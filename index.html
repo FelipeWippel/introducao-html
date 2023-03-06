@@ -5,15 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro HTML</title>
+    <style>
+        hr {
+            border: 1px solid rgb(255, 0, 255);
+        }
+        .container{
+            position:absolute;
+            top: 250px;
+            left: 500px;
+            background: plum;
+            opacity: 0.9;
+        }
+        .container2{
+            position:absolute;
+            top: 900px;
+            left: 575px;
+            background: plum;
+            opacity: 0.9;
+        }
+    </style>
 </head>
 <body>
-    Aula de programação de aplicativos
-    <br>
-    Estamos iniciando nosso site
-    <br>
-    <img src="bolsonaro.jpg" width="400" height="30">
-    <hr>
-    <img src="Macaco.jpg" width="400">
-    <h1>Penço logo ezistoh</h1>
+    <div class="container">
+        <h1 style="color: blueviolet;"> Aula de programação de aplicativos </h1>
+        <br>
+        <center><h4 style="color: rgb(122, 103, 139);">Estamos iniciando nosso site</h4></center>
+        <br>
+        <center><a target="_blank" href="https://www.youtube.com/watch?v=f2ZC3uiSjq0">
+            <img src="bolsonaro.jpg" alt="busunaru esticado" width="400" height="70">
+        </a></center>
+        <hr>
+        <center><h1 style="color: mediumvioletred;">Penço logo ezistoh</h1></center>
+        <center><a target="_blank" href="https://www.youtube.com/watch?v=kRu3xGkowIM">
+            <img src="Macaco.jpg" alt="Imagem de mamaco" width="400">
+        </a></center>
+    </div>
+    <div class="container2">
+        <h2>Lista com bolinha (não ordenada)</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <h2>Lista com numeros (ordenada)</h2>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+    </div>
+
+    <script>
+        alert("Hello World");
+
+    </script>
+
+
+    
 </body>
 </html>
